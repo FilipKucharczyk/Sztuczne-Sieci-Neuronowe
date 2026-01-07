@@ -45,8 +45,8 @@ class DlNet:
         self.y = y
         self.y_out = 0
 
-        self.HIDDEN_L_SIZE = 50
-        self.LR = 0.01
+        self.HIDDEN_L_SIZE = 9
+        self.LR = 0.003
 
         # Wagi warstwy ukrytej (Input -> Hidden)
         # Wymiar: 1 wejście x HIDDEN_L_SIZE neuronów
