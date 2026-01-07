@@ -65,7 +65,7 @@ def run_experiment_series(param_name, param_values, fixed_params):
 
 
 if __name__ == "__main__":
-    print("Rozpoczynam testy... (Test LR uruchomi się jako pierwszy)")
+    print("Rozpoczynam testy")
 
     # TEST 1: Wpływ Learning Rate (LR)
     run_experiment_series(
